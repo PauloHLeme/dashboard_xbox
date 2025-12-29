@@ -1,0 +1,178 @@
+table B̳ases
+	lineageTag: 46fb7af1-7556-4c77-97b4-57e23b69fb43
+
+	column 'Subscriber ID'
+		dataType: int64
+		formatString: 0
+		displayFolder: User Data
+		lineageTag: dedbee77-6fa3-47d5-9e67-fb46138527ee
+		summarizeBy: count
+		sourceColumn: Subscriber ID
+
+		annotation SummarizationSetBy = Automatic
+
+	column Plan
+		dataType: string
+		displayFolder: GamePass Data
+		lineageTag: a14332ea-5ec2-4acd-856e-35d880ef46d1
+		summarizeBy: none
+		sourceColumn: Plan
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Start Date'
+		dataType: dateTime
+		formatString: Long Date
+		displayFolder: User Data
+		lineageTag: ad7fc47a-aa19-44eb-b43a-a10d41ee611b
+		summarizeBy: none
+		sourceColumn: Start Date
+
+		variation Variation
+			isDefault
+			relationship: 180166fa-bcec-4c58-999a-644c199fccd0
+			defaultHierarchy: LocalDateTable_c2727dce-3f22-4dd3-b9c8-6b2554060969.'Hierarquia de datas'
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column 'Auto Renewal'
+		dataType: string
+		displayFolder: User Data
+		lineageTag: 249ff1a7-6a77-4c9d-9c2d-32237d01ff18
+		summarizeBy: none
+		sourceColumn: Auto Renewal
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Subscription Price'
+		dataType: decimal
+		formatString: "R$"\ #,0.###############;-"R$"\ #,0.###############;"R$"\ #,0.###############
+		displayFolder: GamePass Data
+		lineageTag: fca0fa11-57c4-4b0a-9446-423a2ed85c6e
+		summarizeBy: sum
+		sourceColumn: Subscription Price
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"currencyCulture":"pt-BR"}
+
+	column 'Subscription Type'
+		dataType: string
+		displayFolder: GamePass Data
+		lineageTag: 0f4d9dc0-f5c7-41ff-9f73-92c26862c024
+		summarizeBy: none
+		sourceColumn: Subscription Type
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'EA Play Season Pass'
+		dataType: string
+		displayFolder: EA Data
+		lineageTag: c837d8d5-097e-4aaf-8fe5-334cf9a33581
+		summarizeBy: none
+		sourceColumn: EA Play Season Pass
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'EA Play Season PassPrice'
+		dataType: decimal
+		formatString: "R$"\ #,0.###############;-"R$"\ #,0.###############;"R$"\ #,0.###############
+		displayFolder: EA Data
+		lineageTag: e5852c71-69da-4ede-b300-20e77c21e8e2
+		summarizeBy: sum
+		sourceColumn: EA Play Season PassPrice
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"currencyCulture":"pt-BR"}
+
+	column 'Minecraft Season Pass'
+		dataType: string
+		displayFolder: Minecraft Data
+		lineageTag: 7551841a-7955-4dfc-b616-ad1d824faab5
+		summarizeBy: none
+		sourceColumn: Minecraft Season Pass
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Minecraft Season Pass Price'
+		dataType: decimal
+		formatString: "R$"\ #,0.###############;-"R$"\ #,0.###############;"R$"\ #,0.###############
+		displayFolder: Minecraft Data
+		lineageTag: d38d7dea-64ef-432f-a64d-5432aecc9ea7
+		summarizeBy: sum
+		sourceColumn: Minecraft Season Pass Price
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"currencyCulture":"pt-BR"}
+
+	column 'Coupon Value'
+		dataType: decimal
+		formatString: "R$"\ #,0.###############;-"R$"\ #,0.###############;"R$"\ #,0.###############
+		displayFolder: Finance Data
+		lineageTag: f33f032b-7005-4093-937c-d01d8489de84
+		summarizeBy: sum
+		sourceColumn: Coupon Value
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"currencyCulture":"pt-BR"}
+
+	column 'Total Value'
+		dataType: decimal
+		formatString: "R$"\ #,0.###############;-"R$"\ #,0.###############;"R$"\ #,0.###############
+		displayFolder: Finance Data
+		lineageTag: 1289e5c9-72eb-4d6d-bb9f-294bed9ce49a
+		summarizeBy: sum
+		sourceColumn: Total Value
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"currencyCulture":"pt-BR"}
+
+	column 'Add-on Status' =
+			IF(
+			    'B̳ases'[EA Play Season Pass] = "Yes"
+			    || 'B̳ases'[Minecraft Season Pass] = "Yes",
+			    "With Add-ons",
+			    "Without Add-ons")
+		displayFolder: User Data
+		lineageTag: 01b02107-6b29-4f22-b884-5606087e27ab
+		summarizeBy: none
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Coupon Usage' =
+			IF(
+			    'B̳ases'[Coupon Value] > 0,
+			    "With Cupom",
+			    "Without Cupom"
+			)
+		displayFolder: Finance Data
+		lineageTag: 19aad195-7be4-45e7-9702-09fee96bee3b
+		summarizeBy: none
+
+		annotation SummarizationSetBy = Automatic
+
+	partition B̳ases = m
+		mode: import
+		source =
+				let
+				    Fonte = Excel.Workbook(File.Contents("E:\Downloads\dashboard_xbox.xlsx"), null, true),
+				    B̳ases_Sheet = Fonte{[Item="B̳ases",Kind="Sheet"]}[Data],
+				    #"Cabeçalhos Promovidos" = Table.PromoteHeaders(B̳ases_Sheet, [PromoteAllScalars=true]),
+				    #"Tipo Alterado" = Table.TransformColumnTypes(#"Cabeçalhos Promovidos",{{"Subscriber ID", Int64.Type}, {"Name", type text}, {"Plan", type text}, {"Start Date", type date}, {"Auto Renewal", type text}, {"Subscription Price", Int64.Type}, {"Subscription Type", type text}, {"EA Play Season Pass", type text}, {"EA Play Season Pass#(lf)Price", type any}, {"Minecraft Season Pass", type text}, {"Minecraft Season Pass Price", Int64.Type}, {"Coupon Value", Int64.Type}, {"Total Value", Int64.Type}}),
+				    #"Colunas Removidas" = Table.RemoveColumns(#"Tipo Alterado",{"Name"}),
+				    #"Tipo Alterado1" = Table.TransformColumnTypes(#"Colunas Removidas",{{"Subscription Price", Currency.Type}}),
+				    #"Valor Substituído" = Table.ReplaceValue(#"Tipo Alterado1","-",0,Replacer.ReplaceValue,{"EA Play Season Pass#(lf)Price"}),
+				    #"Tipo Alterado2" = Table.TransformColumnTypes(#"Valor Substituído",{{"Coupon Value", Currency.Type}, {"Total Value", Currency.Type}, {"EA Play Season Pass#(lf)Price", Currency.Type}, {"Minecraft Season Pass Price", Currency.Type}})
+				in
+				    #"Tipo Alterado2"
+
+	annotation PBI_NavigationStepName = Navegação
+
+	annotation PBI_ResultType = Table
+

@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Report",
+    "displayName": "Xbox Plans Dashboard"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "d9eaf5ab-b5c2-4fa3-8be6-d1f20576418a"
+  }
+}

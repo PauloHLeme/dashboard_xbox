@@ -1,0 +1,272 @@
+table Medidas
+	lineageTag: e67f5e2d-55a1-46e3-9cd0-f046db40c4da
+
+	measure 'Total Revenue' = SUM('B̳ases'[Total Value])
+		formatString: "R$"\ #,0.###############;-"R$"\ #,0.###############;"R$"\ #,0.###############
+		displayFolder: Revenue
+		lineageTag: d8d52336-fcbb-4381-9697-219578b955db
+		dataCategory: Uncategorized
+
+		annotation PBI_FormatHint = {"currencyCulture":"pt-BR"}
+
+	measure 'GamePass Users' = COUNT('B̳ases'[Subscriber ID])
+		formatString: 0
+		displayFolder: Users
+		lineageTag: f7b66028-ec7e-49e0-92f8-2e631ee724f3
+
+	measure 'GamePass Revenue' = SUM('B̳ases'[Subscription Price])
+		formatString: "R$"\ #,0.###############;-"R$"\ #,0.###############;"R$"\ #,0.###############
+		displayFolder: Revenue
+		lineageTag: 09119837-08f8-40c4-b579-6384e59eb183
+
+		annotation PBI_FormatHint = {"currencyCulture":"pt-BR"}
+
+	measure 'Minecraft Revenue' = SUM('B̳ases'[Minecraft Season Pass Price])
+		formatString: "R$"\ #,0.###############;-"R$"\ #,0.###############;"R$"\ #,0.###############
+		displayFolder: Revenue
+		lineageTag: b660bd19-ac68-4b9d-abfc-9dd0909d327a
+
+		annotation PBI_FormatHint = {"currencyCulture":"pt-BR"}
+
+	measure 'Ea Revenue' = SUM('B̳ases'[EA Play Season PassPrice])
+		formatString: "R$"\ #,0.###############;-"R$"\ #,0.###############;"R$"\ #,0.###############
+		displayFolder: Revenue
+		lineageTag: 70a7790a-f516-4730-9734-da14e15fcbc4
+
+		annotation PBI_FormatHint = {"currencyCulture":"pt-BR"}
+
+	measure 'EA Users' =
+			CALCULATE(
+			    COUNTROWS('B̳ases'),
+			    'B̳ases'[EA Play Season Pass] = "Yes"
+			)
+		formatString: 0
+		displayFolder: Users
+		lineageTag: ec06a3ea-f600-413d-a372-83c056dd7267
+
+	measure 'EA Users Rate' =
+			
+			DIVIDE(
+			    [EA Users],
+			    COUNTROWS('B̳ases'),
+			    0
+			)
+		formatString: 0.00%;-0.00%;0.00%
+		displayFolder: Users
+		lineageTag: 38156794-6019-4024-bc6e-a9cf05ec128d
+
+	measure 'Minecraft Users' =
+			CALCULATE(
+			    COUNTROWS('B̳ases'),
+			    'B̳ases'[Minecraft Season Pass] = "Yes"
+			)
+		formatString: 0
+		displayFolder: Users
+		lineageTag: 20c173cc-7e0a-41af-8496-be08f653f28f
+
+	measure 'Minecraft Users Rate' =
+			DIVIDE(
+			    [Minecraft Users],
+			    COUNTROWS('B̳ases'),
+			    0
+			)
+		formatString: 0.00%;-0.00%;0.00%
+		displayFolder: Users
+		lineageTag: 7755447d-7f1e-4212-9d12-4881bd7f4f25
+
+	measure AOV = DIVIDE([Total Revenue],[GamePass Users])
+		formatString: "R$"\ #,0.###############;-"R$"\ #,0.###############;"R$"\ #,0.###############
+		displayFolder: AOV (Average Order Value)
+		lineageTag: fd4f8265-890e-444a-a4e1-cbcbbe6e81a7
+
+		annotation PBI_FormatHint = {"currencyCulture":"pt-BR"}
+
+	measure 'Add-ons Revenue' = [Ea Revenue] + [Minecraft Revenue]
+		formatString: "R$"\ #,0.###############;-"R$"\ #,0.###############;"R$"\ #,0.###############
+		displayFolder: Revenue
+		lineageTag: d6ff9dfb-a015-40aa-acc2-4d1ffe167669
+
+		annotation PBI_FormatHint = {"currencyCulture":"pt-BR"}
+
+	measure 'Max Users Plan' = ```
+			CALCULATE(
+			    DISTINCTCOUNT('B̳ases'[Subscriber ID]), 
+			    'B̳ases'[Plan] = "Core",
+			    ALL('B̳ases')
+			)
+			```
+		formatString: 0
+		displayFolder: Users
+		lineageTag: 4a334a02-1c51-4e11-b9c2-a8ac0481292e
+
+	measure 'Max Revenue User' = ```
+			CALCULATE(
+			    SUM('B̳ases'[Total Value]), 
+			    'B̳ases'[Plan] = "Ultimate",
+			    ALL('B̳ases')
+			)
+			```
+		formatString: "R$"\ #,0.###############;-"R$"\ #,0.###############;"R$"\ #,0.###############
+		displayFolder: Revenue
+		lineageTag: aecfab9b-2633-4972-a8a6-063e2f274307
+
+		annotation PBI_FormatHint = {"currencyCulture":"pt-BR"}
+
+	measure 'Max Users Subscription Type' = ```
+			CALCULATE(
+			    DISTINCTCOUNT('B̳ases'[Subscriber ID]), 
+			    'B̳ases'[Subscription Type] = "Monthly",
+			    ALL('B̳ases')
+			)
+			```
+		formatString: 0
+		displayFolder: Users
+		lineageTag: 3f4402f5-e3cd-4b2a-840c-cb74e59127e7
+
+	measure 'Max Revenue by Recurrency Plan' = ```
+			CALCULATE(
+			    SUM('B̳ases'[Total Value]), 
+			    'B̳ases'[Subscription Type] = "Monthly",
+			    ALL('B̳ases')
+			)
+			```
+		formatString: "R$"\ #,0.###############;-"R$"\ #,0.###############;"R$"\ #,0.###############
+		displayFolder: Revenue
+		lineageTag: 6cbf4c31-d494-49e0-971a-708faa3edec5
+
+		annotation PBI_FormatHint = {"currencyCulture":"pt-BR"}
+
+	measure 'Auto Renewal Users' =
+			
+			CALCULATE([GamePass Users],
+			'B̳ases'[Auto Renewal] = "Yes")
+		formatString: 0
+		displayFolder: Users
+		lineageTag: a2f0f1f9-054f-45ee-89e5-0d7f114c503b
+
+	measure 'Auto Renewal Users Rate' =
+			
+			CALCULATE(
+			    DIVIDE(
+			        [Auto Renewal Users],
+			        [GamePass Users]
+			    ),
+			ALL('B̳ases'))
+		formatString: 0.00%;-0.00%;0.00%
+		displayFolder: Users
+		lineageTag: 44e96483-d01c-4e6b-b448-832271c0da56
+
+	measure 'Auto Renewal Revenue' =
+			CALCULATE(
+			    [Total Revenue],
+			    'B̳ases'[Auto Renewal] = "Yes")
+		formatString: \$#,0.###############;(\$#,0.###############);\$#,0.###############
+		displayFolder: Revenue
+		lineageTag: 8ef4120d-e161-498b-a518-dd492bc2d612
+
+	measure 'Auto Renewal Revenue Rate' =
+			
+			CALCULATE(
+			    DIVIDE(
+			        [Auto Renewal Revenue],
+			        [Total Revenue]
+			        ),
+			ALL('B̳ases'))
+		formatString: 0.00%;-0.00%;0.00%
+		displayFolder: Revenue
+		lineageTag: e5b7c9f5-2e1f-4946-bc53-7ae47e037dda
+
+	measure 'Add-ons Users' =
+			CALCULATE(
+			    [GamePass Users],
+			    'B̳ases'[EA Play Season Pass] = "Yes"
+			        || 'B̳ases'[Minecraft Season Pass] = "Yes")
+		formatString: 0
+		displayFolder: Users
+		lineageTag: 5a26c5a5-bbf6-4bdf-8990-b12bd9aef574
+
+	measure 'Add-ons Users Rate' =
+			CALCULATE(DIVIDE(
+			    [Add-ons Users],
+			    [GamePass Users]),
+			    ALL('B̳ases'))
+		formatString: 0.00%;-0.00%;0.00%
+		displayFolder: Users
+		lineageTag: 0b0d475f-88cd-4c70-8a8a-87237dd1be1c
+
+	measure 'Add-ons AOV' =
+			DIVIDE(
+			    CALCULATE(
+			        SUM('B̳ases'[Total Value]),
+			        'B̳ases'[EA Play Season Pass] = "Yes"
+			            || 'B̳ases'[Minecraft Season Pass] = "Yes"
+			            ),
+			            [Add-ons Users],
+			            "00"
+			)
+		formatString: "R$"\ #,0.###############;-"R$"\ #,0.###############;"R$"\ #,0.###############
+		displayFolder: AOV (Average Order Value)
+		lineageTag: 5d2b2243-3b33-4927-8c3c-90a1d881b9a6
+
+		annotation PBI_FormatHint = {"currencyCulture":"pt-BR"}
+
+	measure 'Users with Coupons' =
+			CALCULATE(
+			    [GamePass Users],
+			    'B̳ases'[Coupon Usage] = "With cupom")
+		formatString: 0
+		displayFolder: Users
+		lineageTag: 47ddc693-626c-410c-ad9f-6b9ae6412145
+
+	measure 'Users with Coupons Rate' =
+			DIVIDE(
+			    [Users with Coupons],
+			    [GamePass Users]
+			)
+		formatString: 0.00%;-0.00%;0.00%
+		displayFolder: Users
+		lineageTag: ca9e605d-a690-44fb-a585-9eadd24d9b13
+
+	measure 'Total in Coupons' = SUM('B̳ases'[Coupon Value])
+		formatString: "R$"\ #,0.00;-"R$"\ #,0.00;"R$"\ #,0.00
+		displayFolder: Revenue
+		lineageTag: 326c4a9e-6e9c-421a-b921-6618d201e5fe
+
+		annotation PBI_FormatHint = {"currencyCulture":"pt-BR"}
+
+	measure 'AOV with Coupons' =
+			DIVIDE(
+			    CALCULATE(
+			        [Total Revenue],
+			        'B̳ases'[Coupon Usage] = "With cupom"
+			    ),
+			    [Users with Coupons]
+			)
+		formatString: "R$"\ #,0.00;-"R$"\ #,0.00;"R$"\ #,0.00
+		displayFolder: AOV (Average Order Value)
+		lineageTag: 4f67a398-6e30-4ab9-a77a-a14b71e8997c
+
+		annotation PBI_FormatHint = {"currencyCulture":"pt-BR"}
+
+	column 'Coluna 1'
+		dataType: string
+		isHidden
+		lineageTag: ee94e89d-752e-4d80-a303-08ce0e345e41
+		summarizeBy: none
+		sourceColumn: Coluna 1
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Medidas = m
+		mode: import
+		source =
+				let
+				    Fonte = Table.FromRows(Json.Document(Binary.Decompress(Binary.FromText("i44FAA==", BinaryEncoding.Base64), Compression.Deflate)), let _t = ((type nullable text) meta [Serialized.Text = true]) in type table [#"Coluna 1" = _t]),
+				    #"Tipo Alterado" = Table.TransformColumnTypes(Fonte,{{"Coluna 1", type text}})
+				in
+				    #"Tipo Alterado"
+
+	annotation PBI_ResultType = Table
+

@@ -1,0 +1,3642 @@
+cultureInfo pt-BR
+
+	linguisticMetadata =
+			{
+			  "Version": "4.1.0",
+			  "Language": "en-US",
+			  "Entities": {
+			    "B̳ase": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "B̳ases"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "B̳ase": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "B̳ase.subscriber_ID": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "B̳ases",
+			          "ConceptualProperty": "Subscriber ID"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "subscriber ID": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "subscriber": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "subscriber identification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "subscriber identity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "subscriber identifier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "subscriber credential": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "B̳ase.plan": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "B̳ases",
+			          "ConceptualProperty": "Plan"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "plan": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "proposal": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "strategy": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "agenda": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "arrangement": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "idea": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "layout": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "policy": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "preparation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "blueprint": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "initiative": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ]
+			    },
+			    "B̳ase.start_date": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "B̳ases",
+			          "ConceptualProperty": "Start Date"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "start date": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        },
+			        {
+			          "start moment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "start period": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "commencement date": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "inception date": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "kickoff date": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "beginning date": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "first date": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "initiation date": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "launch date": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "kick off date": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "B̳ase.start_date.hierarquia_de_data": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "B̳ases",
+			          "VariationSource": "Start Date",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "hierarquia de data": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "hierarquia de information": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de fact": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de info": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de statistic": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de document": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "hierarquia de figure": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "hierarquia de record": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        }
+			      ]
+			    },
+			    "B̳ase.start_date.ano": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "B̳ases",
+			          "VariationSource": "Start Date",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Ano"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ano": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "start date ano": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "commencement date ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.615
+			          }
+			        },
+			        {
+			          "inception date ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.615
+			          }
+			        },
+			        {
+			          "kickoff date ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.615
+			          }
+			        },
+			        {
+			          "start moment ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "beginning date ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.597
+			          }
+			        },
+			        {
+			          "first date ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.597
+			          }
+			        },
+			        {
+			          "initiation date ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.597
+			          }
+			        },
+			        {
+			          "launch date ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.597
+			          }
+			        },
+			        {
+			          "start period ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "kick off date ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.484
+			          }
+			        }
+			      ]
+			    },
+			    "B̳ase.start_date.trimestre": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "B̳ases",
+			          "VariationSource": "Start Date",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Trimestre"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "trimestre": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "start date trimestre": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "commencement date trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.615
+			          }
+			        },
+			        {
+			          "inception date trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.615
+			          }
+			        },
+			        {
+			          "kickoff date trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.615
+			          }
+			        },
+			        {
+			          "start moment trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "beginning date trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.597
+			          }
+			        },
+			        {
+			          "first date trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.597
+			          }
+			        },
+			        {
+			          "initiation date trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.597
+			          }
+			        },
+			        {
+			          "launch date trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.597
+			          }
+			        },
+			        {
+			          "start period trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "kick off date trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.484
+			          }
+			        }
+			      ]
+			    },
+			    "B̳ase.start_date.mê": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "B̳ases",
+			          "VariationSource": "Start Date",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Mês"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "mê": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "start date mê": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "commencement date mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.615
+			          }
+			        },
+			        {
+			          "inception date mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.615
+			          }
+			        },
+			        {
+			          "kickoff date mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.615
+			          }
+			        },
+			        {
+			          "start moment mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "beginning date mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.597
+			          }
+			        },
+			        {
+			          "first date mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.597
+			          }
+			        },
+			        {
+			          "initiation date mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.597
+			          }
+			        },
+			        {
+			          "launch date mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.597
+			          }
+			        },
+			        {
+			          "start period mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "kick off date mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.484
+			          }
+			        }
+			      ]
+			    },
+			    "B̳ase.start_date.dia": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "B̳ases",
+			          "VariationSource": "Start Date",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Dia"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dia": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "start date dia": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "commencement date dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.615
+			          }
+			        },
+			        {
+			          "inception date dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.615
+			          }
+			        },
+			        {
+			          "kickoff date dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.615
+			          }
+			        },
+			        {
+			          "start moment dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "beginning date dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.597
+			          }
+			        },
+			        {
+			          "first date dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.597
+			          }
+			        },
+			        {
+			          "initiation date dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.597
+			          }
+			        },
+			        {
+			          "launch date dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.597
+			          }
+			        },
+			        {
+			          "start period dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "kick off date dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.484
+			          }
+			        }
+			      ]
+			    },
+			    "B̳ase.auto_renewal": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "B̳ases",
+			          "ConceptualProperty": "Auto Renewal"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "auto renewal": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "renewal": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "auto regeneration": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "auto restitution": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "auto revitalization": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "auto rejuvenation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "auto replenishment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "auto restoration": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "regeneration": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "restitution": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "revitalization": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "rejuvenation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        }
+			      ]
+			    },
+			    "B̳ase.subscription_price": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "B̳ases",
+			          "ConceptualProperty": "Subscription Price"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "subscription price": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "price": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "subscription value": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "subscription worth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "subscription fee": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "subscription charge": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "subscription amount": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "subscription bill": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "subscription rate": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "subscription expense": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "subscription cost": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "subscription outlay": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        }
+			      ]
+			    },
+			    "B̳ase.subscription_type": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "B̳ases",
+			          "ConceptualProperty": "Subscription Type"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "subscription type": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "type": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "subscription category": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "subscription genre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "subscription manner": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "subscription variety": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "category": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "genre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "manner": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "variety": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "subscription brand": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "subscription class": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "B̳ase.EA_play_season_pass": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "B̳ases",
+			          "ConceptualProperty": "EA Play Season Pass"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "EA play season pass": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "pass": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "season pass": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "play season pass": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "ea play season authorization": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.514
+			          }
+			        },
+			        {
+			          "ea play season documentation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.514
+			          }
+			        },
+			        {
+			          "ea play season clearance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.514
+			          }
+			        },
+			        {
+			          "ea play season permission": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.514
+			          }
+			        },
+			        {
+			          "play season authorization": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "play season documentation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "play season clearance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "play season permission": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "season authorization": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "season documentation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        }
+			      ]
+			    },
+			    "B̳ase.EA_play_season_PassPrice": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "B̳ases",
+			          "ConceptualProperty": "EA Play Season PassPrice"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "EA play season PassPrice": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "B̳ase.minecraft_season_pass": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "B̳ases",
+			          "ConceptualProperty": "Minecraft Season Pass"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "minecraft season pass": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "minecraft season authorization": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "minecraft season documentation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "minecraft season clearance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "minecraft season permission": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "minecraft season permit": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "minecraft season license": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "minecraft season card": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "minecraft season badge": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "minecraft season corridor": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.482
+			          }
+			        },
+			        {
+			          "minecraft season valley": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.482
+			          }
+			        }
+			      ]
+			    },
+			    "B̳ase.minecraft_season_pass_price": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "B̳ases",
+			          "ConceptualProperty": "Minecraft Season Pass Price"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "minecraft season pass price": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "minecraft season pass value": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.499
+			          }
+			        },
+			        {
+			          "minecraft season pass worth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.499
+			          }
+			        },
+			        {
+			          "minecraft season pass fee": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.499
+			          }
+			        },
+			        {
+			          "minecraft season pass charge": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.499
+			          }
+			        },
+			        {
+			          "minecraft season pass amount": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.499
+			          }
+			        },
+			        {
+			          "minecraft season pass bill": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.499
+			          }
+			        },
+			        {
+			          "minecraft season pass rate": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.499
+			          }
+			        },
+			        {
+			          "minecraft season pass expense": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.499
+			          }
+			        },
+			        {
+			          "minecraft season pass cost": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.499
+			          }
+			        },
+			        {
+			          "minecraft season pass outlay": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.499
+			          }
+			        }
+			      ]
+			    },
+			    "B̳ase.coupon_value": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "B̳ases",
+			          "ConceptualProperty": "Coupon Value"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "coupon value": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "value": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "coupon assessment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "assessment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "coupon worth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "coupon price": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "coupon cost": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "coupon charge": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "coupon rate": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "worth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "cost": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "charge": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "B̳ase.total_value": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "B̳ases",
+			          "ConceptualProperty": "Total Value"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "total value": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "value": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "aggregate value": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "overall value": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "total assessment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "assessment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "total worth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "total price": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "total cost": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "total charge": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "total rate": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "worth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "medida": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medidas"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "medida": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "medida.coluna_1": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medidas",
+			          "ConceptualProperty": "Coluna 1"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "coluna 1": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "medida.r_total_assinaturas": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medidas",
+			          "ConceptualProperty": "Total Revenue"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "r$ total assinaturas": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "r dollar total assinatura": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "r$ aggregate assinatura": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "r$ overall assinatura": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        }
+			      ]
+			    },
+			    "medida.assinaturas_GamePass": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medidas",
+			          "ConceptualProperty": "GamePass Users"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "assinaturas GamePass": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "medida.faturamento_GamePass": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medidas",
+			          "ConceptualProperty": "GamePass Revenue"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "faturamento GamePass": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "medida.faturamento_minecraft": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medidas",
+			          "ConceptualProperty": "Minecraft Revenue"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "faturamento minecraft": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "medida.faturamento_EA": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medidas",
+			          "ConceptualProperty": "Ea Revenue"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "faturamento EA": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "medida.assinaturas_EA": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medidas",
+			          "ConceptualProperty": "EA Users"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "assinaturas EA": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "medida.assinaturas_EA1": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medidas",
+			          "ConceptualProperty": "EA Users Rate"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "% assinaturas EA": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "percentage assinatura ea": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "pct assinatura ea": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "medida.assinaturas_minecraft": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medidas",
+			          "ConceptualProperty": "Minecraft Users"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "assinaturas minecraft": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "medida.assinaturas_minecraft1": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medidas",
+			          "ConceptualProperty": "Minecraft Users Rate"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "% assinaturas minecraft": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "percentage assinatura minecraft": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "pct assinatura minecraft": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "medida.ticket_médio": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medidas",
+			          "ConceptualProperty": "AOV"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ticket médio": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "medida.receita_de_addons": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medidas",
+			          "ConceptualProperty": "Add-ons Revenue"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "receita de add-ons": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "receita de add ons": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ]
+			    },
+			    "medida.core": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medidas",
+			          "ConceptualProperty": "Max Users Plan"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "essential": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "core": {}
+			        },
+			        {
+			          "central": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "fundamental": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "main": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "principal": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "basic": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "primary": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "staple": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "underlying": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "hub": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        }
+			      ]
+			    }
+			  },
+			  "Relationships": {
+			    "B̳ase_is_expensive": {
+			      "Binding": {
+			        "ConceptualEntity": "B̳ases"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "B̳ase": {
+			          "Target": {
+			            "Entity": "B̳ase"
+			          }
+			        },
+			        "B̳ase.subscription_price": {
+			          "Target": {
+			            "Entity": "B̳ase.subscription_price"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Adjective": {
+			            "Subject": {
+			              "Role": "B̳ase"
+			            },
+			            "Adjectives": [
+			              {
+			                "expensive": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Antonyms": [
+			              {
+			                "cheap": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Measurement": {
+			              "Role": "B̳ase.subscription_price"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "subscription_price_indicates_how_expensive_B̳ases_are"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "B̳ase"
+			            },
+			            "Object": {
+			              "Role": "B̳ase.subscription_price"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "B̳ases_have_subscription_prices"
+			        }
+			      ]
+			    },
+			    "B̳ase_is_expensive1": {
+			      "Binding": {
+			        "ConceptualEntity": "B̳ases"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "B̳ase": {
+			          "Target": {
+			            "Entity": "B̳ase"
+			          }
+			        },
+			        "B̳ase.EA_play_season_PassPrice": {
+			          "Target": {
+			            "Entity": "B̳ase.EA_play_season_PassPrice"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Adjective": {
+			            "Subject": {
+			              "Role": "B̳ase"
+			            },
+			            "Adjectives": [
+			              {
+			                "expensive": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Antonyms": [
+			              {
+			                "cheap": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Measurement": {
+			              "Role": "B̳ase.EA_play_season_PassPrice"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "EA_play_season_PassPrice_indicates_how_expensive_B̳ases_are"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "B̳ase"
+			            },
+			            "Object": {
+			              "Role": "B̳ase.EA_play_season_PassPrice"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "B̳ases_have_EA_play_season_PassPrices"
+			        }
+			      ]
+			    },
+			    "B̳ase_is_expensive2": {
+			      "Binding": {
+			        "ConceptualEntity": "B̳ases"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "B̳ase": {
+			          "Target": {
+			            "Entity": "B̳ase"
+			          }
+			        },
+			        "B̳ase.minecraft_season_pass_price": {
+			          "Target": {
+			            "Entity": "B̳ase.minecraft_season_pass_price"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Adjective": {
+			            "Subject": {
+			              "Role": "B̳ase"
+			            },
+			            "Adjectives": [
+			              {
+			                "expensive": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Antonyms": [
+			              {
+			                "cheap": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Measurement": {
+			              "Role": "B̳ase.minecraft_season_pass_price"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "minecraft_season_pass_price_indicates_how_expensive_B̳ases_are"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "B̳ase"
+			            },
+			            "Object": {
+			              "Role": "B̳ase.minecraft_season_pass_price"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "B̳ases_have_minecraft_season_pass_prices"
+			        }
+			      ]
+			    },
+			    "B̳ase_is_expensive3": {
+			      "Binding": {
+			        "ConceptualEntity": "B̳ases"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "B̳ase": {
+			          "Target": {
+			            "Entity": "B̳ase"
+			          }
+			        },
+			        "B̳ase.coupon_value": {
+			          "Target": {
+			            "Entity": "B̳ase.coupon_value"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Adjective": {
+			            "Subject": {
+			              "Role": "B̳ase"
+			            },
+			            "Adjectives": [
+			              {
+			                "expensive": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Antonyms": [
+			              {
+			                "cheap": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Measurement": {
+			              "Role": "B̳ase.coupon_value"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "coupon_value_indicates_how_expensive_B̳ases_are"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "B̳ase"
+			            },
+			            "Object": {
+			              "Role": "B̳ase.coupon_value"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "B̳ases_have_coupon_values"
+			        }
+			      ]
+			    },
+			    "B̳ase_is_expensive4": {
+			      "Binding": {
+			        "ConceptualEntity": "B̳ases"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "B̳ase": {
+			          "Target": {
+			            "Entity": "B̳ase"
+			          }
+			        },
+			        "B̳ase.total_value": {
+			          "Target": {
+			            "Entity": "B̳ase.total_value"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Adjective": {
+			            "Subject": {
+			              "Role": "B̳ase"
+			            },
+			            "Adjectives": [
+			              {
+			                "expensive": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Antonyms": [
+			              {
+			                "cheap": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Measurement": {
+			              "Role": "B̳ase.total_value"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "total_value_indicates_how_expensive_B̳ases_are"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "B̳ase"
+			            },
+			            "Object": {
+			              "Role": "B̳ase.total_value"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "B̳ases_have_total_values"
+			        }
+			      ]
+			    },
+			    "B̳ase_is_started_on_start_date": {
+			      "Binding": {
+			        "ConceptualEntity": "B̳ases"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "B̳ase": {
+			          "Target": {
+			            "Entity": "B̳ase"
+			          }
+			        },
+			        "B̳ase.start_date": {
+			          "Target": {
+			            "Entity": "B̳ase.start_date"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "When": {
+			          "Role": "B̳ase.start_date"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Verb": {
+			            "Verbs": [
+			              {
+			                "start": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "B̳ase"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.9,
+			          "ID": "B̳ases_are_started_on_start_dates"
+			        }
+			      ]
+			    },
+			    "B̳ase_has_subscriber_ID": {
+			      "Binding": {
+			        "ConceptualEntity": "B̳ases"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "B̳ase": {
+			          "Target": {
+			            "Entity": "B̳ase"
+			          }
+			        },
+			        "B̳ase.subscriber_ID": {
+			          "Target": {
+			            "Entity": "B̳ase.subscriber_ID"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "B̳ase"
+			            },
+			            "Object": {
+			              "Role": "B̳ase.subscriber_ID"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "B̳ases_have_subscriber_ID"
+			        }
+			      ]
+			    },
+			    "B̳ase_has_plan": {
+			      "Binding": {
+			        "ConceptualEntity": "B̳ases"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "B̳ase": {
+			          "Target": {
+			            "Entity": "B̳ase"
+			          }
+			        },
+			        "B̳ase.plan": {
+			          "Target": {
+			            "Entity": "B̳ase.plan"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "B̳ase"
+			            },
+			            "Object": {
+			              "Role": "B̳ase.plan"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "B̳ases_have_plans"
+			        }
+			      ]
+			    },
+			    "B̳ase_has_start_date": {
+			      "Binding": {
+			        "ConceptualEntity": "B̳ases"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "B̳ase": {
+			          "Target": {
+			            "Entity": "B̳ase"
+			          }
+			        },
+			        "B̳ase.start_date": {
+			          "Target": {
+			            "Entity": "B̳ase.start_date"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "B̳ase"
+			            },
+			            "Object": {
+			              "Role": "B̳ase.start_date"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "B̳ases_have_start_dates"
+			        }
+			      ]
+			    },
+			    "B̳ase_has_auto_renewal": {
+			      "Binding": {
+			        "ConceptualEntity": "B̳ases"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "B̳ase": {
+			          "Target": {
+			            "Entity": "B̳ase"
+			          }
+			        },
+			        "B̳ase.auto_renewal": {
+			          "Target": {
+			            "Entity": "B̳ase.auto_renewal"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "B̳ase"
+			            },
+			            "Object": {
+			              "Role": "B̳ase.auto_renewal"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "B̳ases_have_auto_renewals"
+			        }
+			      ]
+			    },
+			    "B̳ase_has_subscription_type": {
+			      "Binding": {
+			        "ConceptualEntity": "B̳ases"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "B̳ase": {
+			          "Target": {
+			            "Entity": "B̳ase"
+			          }
+			        },
+			        "B̳ase.subscription_type": {
+			          "Target": {
+			            "Entity": "B̳ase.subscription_type"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "B̳ase"
+			            },
+			            "Object": {
+			              "Role": "B̳ase.subscription_type"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "B̳ases_have_subscription_types"
+			        }
+			      ]
+			    },
+			    "B̳ase_has_EA_play_season_pass": {
+			      "Binding": {
+			        "ConceptualEntity": "B̳ases"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "B̳ase": {
+			          "Target": {
+			            "Entity": "B̳ase"
+			          }
+			        },
+			        "B̳ase.EA_play_season_pass": {
+			          "Target": {
+			            "Entity": "B̳ase.EA_play_season_pass"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "B̳ase"
+			            },
+			            "Object": {
+			              "Role": "B̳ase.EA_play_season_pass"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "B̳ases_have_EA_play_season_passes"
+			        }
+			      ]
+			    },
+			    "B̳ase_has_minecraft_season_pass": {
+			      "Binding": {
+			        "ConceptualEntity": "B̳ases"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "B̳ase": {
+			          "Target": {
+			            "Entity": "B̳ase"
+			          }
+			        },
+			        "B̳ase.minecraft_season_pass": {
+			          "Target": {
+			            "Entity": "B̳ase.minecraft_season_pass"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "B̳ase"
+			            },
+			            "Object": {
+			              "Role": "B̳ase.minecraft_season_pass"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "B̳ases_have_minecraft_season_passes"
+			        }
+			      ]
+			    },
+			    "B̳ase_has_medida_r_total_assinaturas": {
+			      "Binding": {
+			        "ConceptualEntity": "B̳ases"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "B̳ase": {
+			          "Target": {
+			            "Entity": "B̳ase"
+			          }
+			        },
+			        "medida.r_total_assinaturas": {
+			          "Target": {
+			            "Entity": "medida.r_total_assinaturas"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "B̳ase"
+			            },
+			            "Object": {
+			              "Role": "medida.r_total_assinaturas"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "B̳ases_have_r_total_assinaturas"
+			        }
+			      ]
+			    },
+			    "B̳ase_has_medida_assinaturas_GamePass": {
+			      "Binding": {
+			        "ConceptualEntity": "B̳ases"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "B̳ase": {
+			          "Target": {
+			            "Entity": "B̳ase"
+			          }
+			        },
+			        "medida.assinaturas_GamePass": {
+			          "Target": {
+			            "Entity": "medida.assinaturas_GamePass"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "B̳ase"
+			            },
+			            "Object": {
+			              "Role": "medida.assinaturas_GamePass"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "B̳ases_have_assinaturas_GamePass"
+			        }
+			      ]
+			    },
+			    "B̳ase_has_medida_faturamento_GamePass": {
+			      "Binding": {
+			        "ConceptualEntity": "B̳ases"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "B̳ase": {
+			          "Target": {
+			            "Entity": "B̳ase"
+			          }
+			        },
+			        "medida.faturamento_GamePass": {
+			          "Target": {
+			            "Entity": "medida.faturamento_GamePass"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "B̳ase"
+			            },
+			            "Object": {
+			              "Role": "medida.faturamento_GamePass"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "B̳ases_have_faturamento_GamePass"
+			        }
+			      ]
+			    },
+			    "B̳ase_has_medida_faturamento_minecraft": {
+			      "Binding": {
+			        "ConceptualEntity": "B̳ases"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "B̳ase": {
+			          "Target": {
+			            "Entity": "B̳ase"
+			          }
+			        },
+			        "medida.faturamento_minecraft": {
+			          "Target": {
+			            "Entity": "medida.faturamento_minecraft"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "B̳ase"
+			            },
+			            "Object": {
+			              "Role": "medida.faturamento_minecraft"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "B̳ases_have_faturamento_minecraft"
+			        }
+			      ]
+			    },
+			    "B̳ase_has_medida_faturamento_EA": {
+			      "Binding": {
+			        "ConceptualEntity": "B̳ases"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "B̳ase": {
+			          "Target": {
+			            "Entity": "B̳ase"
+			          }
+			        },
+			        "medida.faturamento_EA": {
+			          "Target": {
+			            "Entity": "medida.faturamento_EA"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "B̳ase"
+			            },
+			            "Object": {
+			              "Role": "medida.faturamento_EA"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "B̳ases_have_faturamento_EA"
+			        }
+			      ]
+			    },
+			    "B̳ase_has_medida_assinaturas_EA": {
+			      "Binding": {
+			        "ConceptualEntity": "B̳ases"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "B̳ase": {
+			          "Target": {
+			            "Entity": "B̳ase"
+			          }
+			        },
+			        "medida.assinaturas_EA": {
+			          "Target": {
+			            "Entity": "medida.assinaturas_EA"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "B̳ase"
+			            },
+			            "Object": {
+			              "Role": "medida.assinaturas_EA"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "B̳ases_have_assinaturas_EA"
+			        }
+			      ]
+			    },
+			    "B̳ase_has_medida_assinaturas_EA1": {
+			      "Binding": {
+			        "ConceptualEntity": "B̳ases"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "B̳ase": {
+			          "Target": {
+			            "Entity": "B̳ase"
+			          }
+			        },
+			        "medida.assinaturas_EA1": {
+			          "Target": {
+			            "Entity": "medida.assinaturas_EA1"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "B̳ase"
+			            },
+			            "Object": {
+			              "Role": "medida.assinaturas_EA1"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "B̳ases_have__assinaturas_EA"
+			        }
+			      ]
+			    },
+			    "B̳ase_has_medida_assinaturas_minecraft": {
+			      "Binding": {
+			        "ConceptualEntity": "B̳ases"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "B̳ase": {
+			          "Target": {
+			            "Entity": "B̳ase"
+			          }
+			        },
+			        "medida.assinaturas_minecraft": {
+			          "Target": {
+			            "Entity": "medida.assinaturas_minecraft"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "B̳ase"
+			            },
+			            "Object": {
+			              "Role": "medida.assinaturas_minecraft"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "B̳ases_have_assinaturas_minecraft"
+			        }
+			      ]
+			    },
+			    "B̳ase_has_medida_assinaturas_minecraft1": {
+			      "Binding": {
+			        "ConceptualEntity": "B̳ases"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "B̳ase": {
+			          "Target": {
+			            "Entity": "B̳ase"
+			          }
+			        },
+			        "medida.assinaturas_minecraft1": {
+			          "Target": {
+			            "Entity": "medida.assinaturas_minecraft1"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "B̳ase"
+			            },
+			            "Object": {
+			              "Role": "medida.assinaturas_minecraft1"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "B̳ases_have__assinaturas_minecraft"
+			        }
+			      ]
+			    },
+			    "B̳ase_has_medida_ticket_médio": {
+			      "Binding": {
+			        "ConceptualEntity": "B̳ases"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "B̳ase": {
+			          "Target": {
+			            "Entity": "B̳ase"
+			          }
+			        },
+			        "medida.ticket_médio": {
+			          "Target": {
+			            "Entity": "medida.ticket_médio"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "B̳ase"
+			            },
+			            "Object": {
+			              "Role": "medida.ticket_médio"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "B̳ases_have_ticket_médio"
+			        }
+			      ]
+			    },
+			    "B̳ase_has_medida_receita_de_addons": {
+			      "Binding": {
+			        "ConceptualEntity": "B̳ases"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "B̳ase": {
+			          "Target": {
+			            "Entity": "B̳ase"
+			          }
+			        },
+			        "medida.receita_de_addons": {
+			          "Target": {
+			            "Entity": "medida.receita_de_addons"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "B̳ase"
+			            },
+			            "Object": {
+			              "Role": "medida.receita_de_addons"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "B̳ases_have_receita_de_addons"
+			        }
+			      ]
+			    },
+			    "B̳ase_has_medida_core": {
+			      "Binding": {
+			        "ConceptualEntity": "B̳ases"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "B̳ase": {
+			          "Target": {
+			            "Entity": "B̳ase"
+			          }
+			        },
+			        "medida.core": {
+			          "Target": {
+			            "Entity": "medida.core"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "B̳ase"
+			            },
+			            "Object": {
+			              "Role": "medida.core"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "B̳ases_have_core"
+			        }
+			      ]
+			    },
+			    "B̳ase_start_date_has_hierarquia_de_data": {
+			      "Binding": {
+			        "ConceptualEntity": "B̳ases"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "B̳ase.start_date": {
+			          "Target": {
+			            "Entity": "B̳ase.start_date"
+			          }
+			        },
+			        "B̳ase.start_date.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "B̳ase.start_date.hierarquia_de_data"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "B̳ase.start_date"
+			            },
+			            "Object": {
+			              "Role": "B̳ase.start_date.hierarquia_de_data"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "start_dates_have_hierarquia_de_data"
+			        }
+			      ]
+			    },
+			    "B̳ase_start_date_hierarquia_de_data_has_B̳ase_start_date_ano": {
+			      "Binding": {
+			        "ConceptualEntity": "B̳ases"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "B̳ase.start_date.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "B̳ase.start_date.hierarquia_de_data"
+			          }
+			        },
+			        "B̳ase.start_date.ano": {
+			          "Target": {
+			            "Entity": "B̳ase.start_date.ano"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "B̳ase.start_date.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "B̳ase.start_date.ano"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_anos"
+			        }
+			      ]
+			    },
+			    "B̳ase_start_date_hierarquia_de_data_has_B̳ase_start_date_trimestre": {
+			      "Binding": {
+			        "ConceptualEntity": "B̳ases"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "B̳ase.start_date.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "B̳ase.start_date.hierarquia_de_data"
+			          }
+			        },
+			        "B̳ase.start_date.trimestre": {
+			          "Target": {
+			            "Entity": "B̳ase.start_date.trimestre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "B̳ase.start_date.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "B̳ase.start_date.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_trimestres"
+			        }
+			      ]
+			    },
+			    "B̳ase_start_date_hierarquia_de_data_has_B̳ase_start_date_mê": {
+			      "Binding": {
+			        "ConceptualEntity": "B̳ases"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "B̳ase.start_date.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "B̳ase.start_date.hierarquia_de_data"
+			          }
+			        },
+			        "B̳ase.start_date.mê": {
+			          "Target": {
+			            "Entity": "B̳ase.start_date.mê"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "B̳ase.start_date.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "B̳ase.start_date.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_mê"
+			        }
+			      ]
+			    },
+			    "B̳ase_start_date_hierarquia_de_data_has_B̳ase_start_date_dia": {
+			      "Binding": {
+			        "ConceptualEntity": "B̳ases"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "B̳ase.start_date.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "B̳ase.start_date.hierarquia_de_data"
+			          }
+			        },
+			        "B̳ase.start_date.dia": {
+			          "Target": {
+			            "Entity": "B̳ase.start_date.dia"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "B̳ase.start_date.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "B̳ase.start_date.dia"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_dias"
+			        }
+			      ]
+			    },
+			    "B̳ase_start_date_ano_has_B̳ase_start_date_trimestre": {
+			      "Binding": {
+			        "ConceptualEntity": "B̳ases"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "B̳ase.start_date.ano": {
+			          "Target": {
+			            "Entity": "B̳ase.start_date.ano"
+			          }
+			        },
+			        "B̳ase.start_date.trimestre": {
+			          "Target": {
+			            "Entity": "B̳ase.start_date.trimestre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "B̳ase.start_date.ano"
+			            },
+			            "Object": {
+			              "Role": "B̳ase.start_date.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "anos_have_trimestres"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "B̳ase.start_date.trimestre"
+			            },
+			            "Object": {
+			              "Role": "B̳ase.start_date.ano"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_have_anos"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "B̳ase.start_date.trimestre"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "B̳ase.start_date.ano"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_are_in_anos"
+			        }
+			      ]
+			    },
+			    "B̳ase_start_date_trimestre_has_B̳ase_start_date_mê": {
+			      "Binding": {
+			        "ConceptualEntity": "B̳ases"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "B̳ase.start_date.trimestre": {
+			          "Target": {
+			            "Entity": "B̳ase.start_date.trimestre"
+			          }
+			        },
+			        "B̳ase.start_date.mê": {
+			          "Target": {
+			            "Entity": "B̳ase.start_date.mê"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "B̳ase.start_date.trimestre"
+			            },
+			            "Object": {
+			              "Role": "B̳ase.start_date.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_have_mê"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "B̳ase.start_date.mê"
+			            },
+			            "Object": {
+			              "Role": "B̳ase.start_date.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mê_have_trimestres"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "B̳ase.start_date.mê"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "B̳ase.start_date.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mê_are_in_trimestres"
+			        }
+			      ]
+			    },
+			    "B̳ase_start_date_mê_has_B̳ase_start_date_dia": {
+			      "Binding": {
+			        "ConceptualEntity": "B̳ases"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "B̳ase.start_date.mê": {
+			          "Target": {
+			            "Entity": "B̳ase.start_date.mê"
+			          }
+			        },
+			        "B̳ase.start_date.dia": {
+			          "Target": {
+			            "Entity": "B̳ase.start_date.dia"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "B̳ase.start_date.mê"
+			            },
+			            "Object": {
+			              "Role": "B̳ase.start_date.dia"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mê_have_dias"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "B̳ase.start_date.dia"
+			            },
+			            "Object": {
+			              "Role": "B̳ase.start_date.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dias_have_mê"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "B̳ase.start_date.dia"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "B̳ase.start_date.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dias_are_in_mê"
+			        }
+			      ]
+			    }
+			  },
+			  "Agents": {
+			    "Internal": {
+			      "Version": "1.1.0"
+			    }
+			  }
+			}
+		contentType: json
+
